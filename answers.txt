@@ -39,3 +39,6 @@ tmp/
 .project
 local.properties
 .loadpath
+
+Q2) What does fast-forward in git mean?
+A2) When a person tries to merge a given commit with the commit that can be done by following by the intial commit's history, git simplifies this by moving the head pointer forward without creating an extra merge commit because there is no divergent work to merge together – this is called a "fast-forward."
