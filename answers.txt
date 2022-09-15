@@ -45,3 +45,6 @@ A2) When a person tries to merge a given commit with the commit that can be done
 
 Q3) Why should you have different branches? 
 A3) For multiple persons working on the same file or feature, separate branches are needed. Also, the master/main branch consists of the verified code. Hence, a person should not ideally test new code int it. As a result, branches should be used to build experimental features that may or may not succeed.
+
+Q4) In a project how many remote Git repositories do you usually have? 
+A4) Preferrably we have 1 repository for a project. But one can have as many as one requires or want.
