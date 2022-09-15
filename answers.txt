@@ -42,3 +42,6 @@ local.properties
 
 Q2) What does fast-forward in git mean?
 A2) When a person tries to merge a given commit with the commit that can be done by following by the intial commit's history, git simplifies this by moving the head pointer forward without creating an extra merge commit because there is no divergent work to merge together – this is called a "fast-forward."
+
+Q3) Why should you have different branches? 
+A3) For multiple persons working on the same file or feature, separate branches are needed. Also, the master/main branch consists of the verified code. Hence, a person should not ideally test new code int it. As a result, branches should be used to build experimental features that may or may not succeed.
